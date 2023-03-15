@@ -7,5 +7,5 @@ export default regexName =>
       '|',
       `^<!--\\s*${regexName}/\\s*-->\\s*((.|\\n)*?)\\s*^<!--\\s*/${regexName}\\s*-->`,
     ] |> join(''),
-    'mi'
+    'mi',
   )

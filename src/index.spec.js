@@ -62,18 +62,18 @@ export default {
   unknown: () => {
     expect(
       self('BADGES').test(endent`
-      foo
-      <!-- FOO -->
-      bar
-    `)
+        foo
+        <!-- FOO -->
+        bar
+      `),
     ).toBeFalsy()
     expect(
       self('BADGES').test(endent`
-      foo
-      <!-- FOO/ -->
-      bar
-      <!-- /FOO -->
-    `)
+        foo
+        <!-- FOO/ -->
+        bar
+        <!-- /FOO -->
+      `),
     ).toBeFalsy()
   },
 }
