@@ -35,7 +35,7 @@
     "@dword-design/functions": "^4.0.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^9.4.1"
+    "@dword-design/base": "^11.0.0"
   },
   "engines": {
     "node": ">=14"
